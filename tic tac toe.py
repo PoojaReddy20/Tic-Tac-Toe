@@ -40,7 +40,7 @@ if __name__ == "__main__":
            value = int(input("Please enter a value: "))
            xState[value] = 1
         else:
-            print("X's chance")
+            print("0's chance")
             value = int(input("Please enter a value: "))
             zState[value] = 1
         cwin = checkWin(xState, zState)
